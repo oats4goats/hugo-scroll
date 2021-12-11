@@ -4,7 +4,7 @@
 <title>{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</title>
 
 {{ with .Site.Params.favicon }}
-  <link rel="shortcut icon" href="{{ . | absURL }}" type="image/png"
+  <link rel="icon" href="{{ . | absURL }}" type="image/png"
 />{{ end }}
 
 {{ with .Site.Params.description }}
